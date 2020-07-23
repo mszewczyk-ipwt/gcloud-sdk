@@ -1,4 +1,6 @@
 name: ipwt.pl GCloud SDK
+description: |
+  Fully fetched GCloud SDK for any use. The rest is ToDo.
 inputs:
   command:
     description: |
