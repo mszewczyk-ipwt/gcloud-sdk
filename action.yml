@@ -18,8 +18,8 @@ inputs:
     required: true
 
 runs:
-  using: docker
-  image: ipwtpl/gcloud-sdk
+  using: 'docker'
+  image: 'docker://ipwtpl/gcloud-sdk'
   args:
     - ${{ inputs.playbook-parameters }}
   env:
